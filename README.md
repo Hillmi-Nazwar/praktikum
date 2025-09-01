@@ -10,3 +10,4 @@
 6. Gabungkan widget Text dan gambar asset menggunakan widget Column agar tampil secara vertikal.
 7. Simpan semua perubahan pada file yang telah diedit.
 8. Jalankan aplikasi menggunakan perintah di terminal
+![Uploading Screenshot (227).png…]()
