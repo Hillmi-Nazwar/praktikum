@@ -1,13 +1,18 @@
 import 'package:flutter/material.dart';
 
-class ImagesWidget extends StatelessWidget{
-  const ImagesWidget ({super.key});
+class WelcomeText extends StatelessWidget {
+  const WelcomeText({super.key});
 
-   @override
+  @override
   Widget build(BuildContext context) {
-    return Image.asset(
-      'assets/images/Poliwangi.jpg',
-      width: 250,
-      height: 250,
+    return const Text(
+      "Welcome\nPoliteknik Negeri Banyuwangi",
+      textAlign: TextAlign.center,
+      style: TextStyle(
+        fontSize: 22,
+        fontWeight: FontWeight.bold,
+        color: Colors.white,
+      ),
     );
-  }}
+  }
+}

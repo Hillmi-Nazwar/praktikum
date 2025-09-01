@@ -1,13 +1,23 @@
 import 'package:flutter/material.dart';
 
-class TextWidget extends StatelessWidget {
-  const TextWidget ({super.key});
-  @override 
+class WelcomeLogo extends StatelessWidget {
+  const WelcomeLogo({super.key});
 
+  @override
   Widget build(BuildContext context) {
-    return const Text (
-      'Hello Word',
-      style: TextStyle(fontSize: 30, color: Colors.blue),
+    return Container(
+      width: 200,
+      height: 200,
+      decoration: const BoxDecoration(
+        shape: BoxShape.circle,
+        color: Colors.white,
+      ),
+      child: ClipOval(
+        child: Image.asset(
+          "images/Poliwangi.jpg",
+          fit: BoxFit.cover,
+        ),
+      ),
     );
   }
 }
