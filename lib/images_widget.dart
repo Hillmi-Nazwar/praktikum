@@ -6,7 +6,7 @@ class ImagesWidget extends StatelessWidget{
    @override
   Widget build(BuildContext context) {
     return Image.asset(
-      'assets/iamages/madrid.jpg',
+      'assets/images/Poliwangi.jpg',
       width: 250,
       height: 250,
     );
